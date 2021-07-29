@@ -58,14 +58,48 @@
                   class="nav-link active"
                   aria-current="page"
                   href="contacto.html"
-                >Contacto</a>
+                  >Contacto</a
+                >
               </li>
             </ul>
           </div>
         </div>
       </nav>
     </header>
-    <main></main>
+    <main class="container">
+      <h1 class="display-1 text-center my-5">Consultas</h1>
+      <hr />
+      <article class="row">
+        <div class="col-sm-12 col-md-6">
+          <form>
+            <div class="mb-3">
+              <label for="nombre" class="form-label"
+                >Nombre y apellido</label
+              >
+              <input
+                type="text"
+                class="form-control"
+                id="nombre"
+                required
+                maxlength="40"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label"
+                >Email</label
+              >
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                required
+              />
+            </div>
+           <button type="submit" class="btn btn-primary">Enviar</button>
+          </form>
+        </div>
+      </article>
+    </main>
     <footer class="bg-dark text-light py-4">
       <section class="container">
         <div class="row">
